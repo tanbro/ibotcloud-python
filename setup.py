@@ -45,6 +45,7 @@ setup(
     description='xiaoi iBotCloud WebAPI Python SDK',
     long_description=read('README.rst'),
     # use setuptools_scm
+    use_scm_version=True,
     setup_requires=['setuptools_scm', 'setuptools_scm_git_archive'],
     # Requires-Python version.
     python_requires='>=2.7',
