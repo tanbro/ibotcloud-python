@@ -63,7 +63,7 @@ class Request(object):
 
         :param str question: 问题内容
 
-            例如：`"您好！"`
+            例如：``"您好！"``
 
         :param str platform: 消息所对应的平台
 
@@ -77,9 +77,9 @@ class Request(object):
 
         :param str user_id: 用户id，用户和会话判断依据
 
-            例如：`"user0001"`
+            例如：``"user0001"``
 
-        :param AskResponseType response_type: 响应类型
+        :param ResponseType response_type: 响应类型
 
             智能交互接口支持普通和高级两种形式：
 
