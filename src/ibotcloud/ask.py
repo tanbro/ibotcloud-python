@@ -19,13 +19,17 @@ from .utils import get_nonce_signature
 
 class ResponseType(IntEnum):
     """智能问答的响应类型
-
-    * :attr:`common` - `0`: 普通. 通模式交互直接返回交互结果
-    * :attr:`advanced` - `1`: 高级. 高级模式返回完整的报文结果，包括分词结果和语义拆解内容等
     """
 
     common = 0
+    """
+    普通模式交互: 直接返回交互结果
+    """
+
     advanced = 1
+    """
+    高级模式: 返回完整的报文结果，包括分词结果和语义拆解内容等
+    """
 
 
 class Request(object):

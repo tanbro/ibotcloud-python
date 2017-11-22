@@ -82,7 +82,7 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
+# html_theme = 'alabaster'
 html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -90,6 +90,13 @@ html_theme = 'alabaster'
 # documentation.
 #
 # html_theme_options = {}
+html_theme_options = {
+    'github_user': 'tanbro',
+    'github_repo': 'ibotcloud-python',
+    'github_banner': True,
+    'fixed_sidebar': True,
+    'sidebar_collapse': True,
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -103,6 +110,8 @@ html_static_path = ['_static']
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
 html_sidebars = {
     '**': [
+        'about.html',
+        'navigation.html',
         'relations.html',  # needs 'show_related': True theme option to display
         'searchbox.html',
     ]
