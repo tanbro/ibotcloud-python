@@ -39,7 +39,7 @@ setup(
     namespace_packages=[],
     packages=find_packages('src', exclude=['tests', 'docs']),
     package_dir={'': 'src'},  # tell distutils packages are under src
-    url='https://github.org/',
+    url='https://github.com/tanbro/ibotcloud-python',
     author='liu xue yan',
     author_email='liu_xue_yan@foxmail.com',
     description='xiaoi iBotCloud WebAPI Python SDK',
