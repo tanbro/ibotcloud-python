@@ -3,17 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ibotcloud-python's documentation!
-============================================
+================
+ibotcloud-python
+================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+------------------
+目录
+------------------
 
+.. include:: modules.rst
 
-
-Indices and tables
-==================
+------------------
+索引与表格
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
