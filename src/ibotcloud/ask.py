@@ -113,4 +113,6 @@ class Request(object):
             headers=headers,
             data=data,
         )
+        if res.status_code != requests.codes.ok:
+            res.raise_for_status()
         return res.text

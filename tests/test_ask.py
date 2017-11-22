@@ -10,6 +10,7 @@ from ibotcloud import ask
 APP_KEY = 'mjjmBCLHyjeo'
 SECRET = '5OI4lJr5zwgQFHuZhWXR'
 
+
 class TestAsk(unittest.TestCase):
 
     def test_execute(self):
