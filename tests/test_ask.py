@@ -15,8 +15,8 @@ class TestAsk(unittest.TestCase):
 
     def test_execute(self):
         req = ask.Request(APP_KEY, SECRET)
-        question = '天王盖地虎'
+        question = '北京周末天气'
         print('Q:', question)
-        answer = req.execute(question)
+        answer = req.execute(question, platform='web', response_type=ask.ResponseType.advanced)
         print('A:', answer)
         self.assertTrue(answer)
