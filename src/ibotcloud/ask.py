@@ -107,10 +107,10 @@ class Request(object):
             )
         }
         params = {
-            'platform': platform.strip(),
-            'userId': user_id.strip(),
             'question': question.strip(),
-            'type': response_type.value
+            'userId': user_id.strip(),
+            'platform': platform.strip(),
+            'type': response_type.value,
         }
         res = requests.get(
             url=url,
