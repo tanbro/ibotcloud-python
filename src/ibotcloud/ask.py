@@ -107,6 +107,11 @@ class Request(object):
             )
         }
         params = {
+<<<<<<< HEAD
+=======
+            'platform': platform.strip(),
+            'userId': user_id.strip(),
+>>>>>>> develop
             'question': question.strip(),
             'userId': user_id.strip(),
             'platform': platform.strip(),
